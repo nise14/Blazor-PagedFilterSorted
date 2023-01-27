@@ -1,0 +1,12 @@
+C:\Repository\Blazor-PagedFilterSorted\DemoGridSp\Shared\bin\Debug\net6.0\DemoGridSp.Shared.deps.json
+C:\Repository\Blazor-PagedFilterSorted\DemoGridSp\Shared\bin\Debug\net6.0\DemoGridSp.Shared.dll
+C:\Repository\Blazor-PagedFilterSorted\DemoGridSp\Shared\bin\Debug\net6.0\DemoGridSp.Shared.pdb
+C:\Repository\Blazor-PagedFilterSorted\DemoGridSp\Shared\obj\Debug\net6.0\DemoGridSp.Shared.csproj.AssemblyReference.cache
+C:\Repository\Blazor-PagedFilterSorted\DemoGridSp\Shared\obj\Debug\net6.0\DemoGridSp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repository\Blazor-PagedFilterSorted\DemoGridSp\Shared\obj\Debug\net6.0\DemoGridSp.Shared.AssemblyInfoInputs.cache
+C:\Repository\Blazor-PagedFilterSorted\DemoGridSp\Shared\obj\Debug\net6.0\DemoGridSp.Shared.AssemblyInfo.cs
+C:\Repository\Blazor-PagedFilterSorted\DemoGridSp\Shared\obj\Debug\net6.0\DemoGridSp.Shared.csproj.CoreCompileInputs.cache
+C:\Repository\Blazor-PagedFilterSorted\DemoGridSp\Shared\obj\Debug\net6.0\DemoGridSp.Shared.dll
+C:\Repository\Blazor-PagedFilterSorted\DemoGridSp\Shared\obj\Debug\net6.0\refint\DemoGridSp.Shared.dll
+C:\Repository\Blazor-PagedFilterSorted\DemoGridSp\Shared\obj\Debug\net6.0\DemoGridSp.Shared.pdb
+C:\Repository\Blazor-PagedFilterSorted\DemoGridSp\Shared\obj\Debug\net6.0\ref\DemoGridSp.Shared.dll

@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoGridSp", "DemoGridSp", "{B6069A4B-164F-44C5-9146-F6C3A83BA322}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoGridSp.Client", "DemoGridSp\Client\DemoGridSp.Client.csproj", "{127B2072-C007-4B29-9671-817A1F75A22B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoGridSp.Server", "DemoGridSp\Server\DemoGridSp.Server.csproj", "{E0259402-A9B9-4B70-A78E-D7E56502CC95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoGridSp.Shared", "DemoGridSp\Shared\DemoGridSp.Shared.csproj", "{26274C88-8BCA-4D9D-8918-7ABE7020181D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{127B2072-C007-4B29-9671-817A1F75A22B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127B2072-C007-4B29-9671-817A1F75A22B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127B2072-C007-4B29-9671-817A1F75A22B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127B2072-C007-4B29-9671-817A1F75A22B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0259402-A9B9-4B70-A78E-D7E56502CC95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0259402-A9B9-4B70-A78E-D7E56502CC95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0259402-A9B9-4B70-A78E-D7E56502CC95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0259402-A9B9-4B70-A78E-D7E56502CC95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26274C88-8BCA-4D9D-8918-7ABE7020181D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26274C88-8BCA-4D9D-8918-7ABE7020181D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26274C88-8BCA-4D9D-8918-7ABE7020181D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26274C88-8BCA-4D9D-8918-7ABE7020181D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{127B2072-C007-4B29-9671-817A1F75A22B} = {B6069A4B-164F-44C5-9146-F6C3A83BA322}
+		{E0259402-A9B9-4B70-A78E-D7E56502CC95} = {B6069A4B-164F-44C5-9146-F6C3A83BA322}
+		{26274C88-8BCA-4D9D-8918-7ABE7020181D} = {B6069A4B-164F-44C5-9146-F6C3A83BA322}
+	EndGlobalSection
+EndGlobal

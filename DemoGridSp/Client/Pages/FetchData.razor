@@ -1,0 +1,43 @@
+﻿@page "/fetchdata"
+@using DemoGridSp.Shared
+@inject HttpClient Http
+@using Microsoft.AspNetCore.Components.QuickGrid;
+
+<PageTitle>Weather forecast</PageTitle>
+
+<h1>Weather forecast</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+<div style="display: @(cargando ? "block" : "none")">
+    <p>Cargando...</p>
+</div>
+
+<div class="grid" tabindex="-1" style="display: @(cargando?"none":"block");">
+    <QuickGrid ItemsProvider="@wfProvider">
+        <PropertyColumn Format="dd-MM-yyyy" Property="@(c=>c.Date)" Sortable="true"
+            IsDefaultSort="SortDirection.Ascending"></PropertyColumn>
+        <PropertyColumn Property="@(c=>c.TemperatureC)"></PropertyColumn>
+        <PropertyColumn Property="@(c=>c.TemperatureF)"></PropertyColumn>
+        <PropertyColumn Property="@(c=>c.Summary)"></PropertyColumn>
+    </QuickGrid>
+</div>
+
+@code {
+    GridItemsProvider<WeatherForecast>? wfProvider;
+    bool cargando = true;
+
+    protected override void OnInitialized()
+    {
+        wfProvider = async req =>
+        {
+            var sortByAscending = req.SortByAscending;
+            var columna = req.SortByColumn!.Title;
+            var respuesta = await Http.GetFromJsonAsync<WeatherForecast[]>(
+                $"WeatherForecast?sortByAscending={sortByAscending}&columna={columna}");
+            cargando = false;
+            StateHasChanged();
+            return GridItemsProviderResult.From(items: respuesta!, totalItemCount: respuesta!.Count());
+        };
+    }
+}
